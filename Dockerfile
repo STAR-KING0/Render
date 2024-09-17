@@ -7,7 +7,7 @@ RUN npm cache clean --force
 RUN rm -rf /root/STAR-KING0/node_modules
 
 # Install dependencies
-WORKDIR /root/Queen_Alya
+WORKDIR /root/STAR-KING0
 RUN npm install
 
 # Add additional Steps To Run...
